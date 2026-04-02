@@ -1,0 +1,21 @@
+{
+  "name": "my-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Notion and GitHub",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@notionhq/client": "^5.16.0",
+    "@octokit/rest": "^22.0.1",
+    "@vercel/mcp-adapter": "^0.3.2",
+    "zod": "^4.3.6"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Irissa Lucas",
+  "license": "MIT"
+}
